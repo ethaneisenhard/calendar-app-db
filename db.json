@@ -1,4 +1,19 @@
 {
   "events": [
+    {
+      "id": "1",
+      "title": "Apple",
+      "location": "Store"
+    }, 
+    {
+        "id": "2",
+        "title": "Party",
+        "location": "Home"
+    }, 
+    {
+        "id": "3",
+        "title": "Cook",
+        "location": "Eggs"
+    }
   ]
 }
