@@ -1,14 +1,28 @@
 {
   "events": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "ethaneisenhard"
-  }
+    {
+      "id": "FH1aiHfR",
+      "title": "Apple",
+      "location": "Home",
+      "startDate": "Tue Dec 10 2019 17:30:00 GMT-0500 (Eastern Standard Time)",
+      "endDate": "Tue Dec 10 2019 18:00:00 GMT-0500 (Eastern Standard Time)",
+      "description": "Cant wait!"
+    },
+    {
+      "id": "q5SDsB_s",
+      "title": "Party",
+      "location": "All ngiht",
+      "startDate": "Wed Dec 11 2019 17:31:11 GMT-0500 (Eastern Standard Time)",
+      "endDate": "Thu Dec 12 2019 17:31:11 GMT-0500 (Eastern Standard Time)",
+      "description": "Party!!!"
+    },
+    {
+      "id": "1JIpr4E-",
+      "title": "Refresh",
+      "location": "Why",
+      "startDate": "Wed Dec 11 2019 17:32:26 GMT-0500 (Eastern Standard Time)",
+      "endDate": "Thu Dec 12 2019 17:32:26 GMT-0500 (Eastern Standard Time)",
+      "description": "idk"
+    }
+  ]
 }
