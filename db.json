@@ -1,28 +1,37 @@
 {
   "events": [
     {
-      "id": "FH1aiHfR",
-      "title": "Apple",
-      "location": "Home",
-      "startDate": "Tue Dec 10 2019 17:30:00 GMT-0500 (Eastern Standard Time)",
-      "endDate": "Tue Dec 10 2019 18:00:00 GMT-0500 (Eastern Standard Time)",
-      "description": "Cant wait!"
+      "eventDetails": {
+        "id": "-OV3196T",
+        "title": "Group President",
+        "location": "Home",
+        "startDate": "Thu Dec 12 2019 12:21:52 GMT-0500 (Eastern Standard Time)",
+        "endDate": "Thu Dec 12 2019 12:21:52 GMT-0500 (Eastern Standard Time)",
+        "description": "hi"
+      },
+      "id": 1
     },
     {
-      "id": "q5SDsB_s",
-      "title": "Party",
-      "location": "All ngiht",
-      "startDate": "Wed Dec 11 2019 17:31:11 GMT-0500 (Eastern Standard Time)",
-      "endDate": "Thu Dec 12 2019 17:31:11 GMT-0500 (Eastern Standard Time)",
-      "description": "Party!!!"
+      "eventDetails": {
+        "id": "-OV3196T",
+        "title": "Apple",
+        "location": "Store",
+        "startDate": "Wed Dec 25 2019 12:21:52 GMT-0500 (Eastern Standard Time)",
+        "endDate": "Thu Dec 26 2019 12:21:52 GMT-0500 (Eastern Standard Time)",
+        "description": "lets test"
+      },
+      "id": 2
     },
     {
-      "id": "1JIpr4E-",
-      "title": "Refresh",
-      "location": "Why",
-      "startDate": "Wed Dec 11 2019 17:32:26 GMT-0500 (Eastern Standard Time)",
-      "endDate": "Thu Dec 12 2019 17:32:26 GMT-0500 (Eastern Standard Time)",
-      "description": "idk"
+      "eventDetails": {
+        "id": "-OV3196T",
+        "title": "Party",
+        "location": "House",
+        "startDate": "Sat Jan 04 2020 12:21:52 GMT-0500 (Eastern Standard Time)",
+        "endDate": "Sat Jan 04 2020 17:00:00 GMT-0500 (Eastern Standard Time)",
+        "description": "another test"
+      },
+      "id": 3
     }
   ]
 }
