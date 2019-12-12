@@ -1,37 +1,5 @@
 {
   "events": [
-    {
-      "eventDetails": {
-        "id": "2o2TlG8L",
-        "title": "Apple",
-        "location": "Store",
-        "startDate": "Thu Dec 12 2019 14:03:13 GMT-0500 (Eastern Standard Time)",
-        "endDate": "Thu Dec 12 2019 14:03:13 GMT-0500 (Eastern Standard Time)",
-        "description": "Perfect"
-      },
-      "id": 1
-    },
-    {
-      "eventDetails": {
-        "id": "JyMLtIM4",
-        "title": "Ethan",
-        "location": "House",
-        "startDate": "Thu Dec 12 2019 14:06:01 GMT-0500 (Eastern Standard Time)",
-        "endDate": "Thu Dec 12 2019 14:06:01 GMT-0500 (Eastern Standard Time)",
-        "description": "Awesome"
-      },
-      "id": 2
-    },
-    {
-      "eventDetails": {
-        "id": "LPr-qh-o",
-        "title": "Party",
-        "location": "Club",
-        "startDate": "Thu Dec 12 2019 14:06:21 GMT-0500 (Eastern Standard Time)",
-        "endDate": "Thu Dec 12 2019 14:06:21 GMT-0500 (Eastern Standard Time)",
-        "description": "Sweet"
-      },
-      "id": 3
-    }
+    
   ]
 }
