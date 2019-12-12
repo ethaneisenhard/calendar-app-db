@@ -1,5 +1,15 @@
 {
   "events": [
-    
+    {
+      "eventDetails": {
+        "id": "MFbASzLR",
+        "title": "Group President",
+        "location": "Home",
+        "startDate": "Thu Dec 12 2019 15:07:51 GMT-0500 (Eastern Standard Time)",
+        "endDate": "Thu Dec 12 2019 15:07:51 GMT-0500 (Eastern Standard Time)",
+        "description": "Sweet"
+      },
+      "id": 1
+    }
   ]
 }
