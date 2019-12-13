@@ -1,15 +1,12 @@
 {
   "events": [
     {
-      "eventDetails": {
-        "id": "MFbASzLR",
-        "title": "Group President",
-        "location": "Home",
-        "startDate": "Thu Dec 12 2019 15:07:51 GMT-0500 (Eastern Standard Time)",
-        "endDate": "Thu Dec 12 2019 15:07:51 GMT-0500 (Eastern Standard Time)",
-        "description": "Sweet"
-      },
-      "id": 1
+      "id": "N7umLNO8",
+      "title": "Apple",
+      "location": "Store",
+      "startDate": "Fri Dec 13 2019 12:06:56 GMT-0500 (Eastern Standard Time)",
+      "endDate": "Fri Dec 13 2019 13:00:00 GMT-0500 (Eastern Standard Time)",
+      "description": "Sweet"
     }
   ]
 }
