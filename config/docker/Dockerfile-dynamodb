@@ -1,0 +1,3 @@
+FROM amazon/dynamodb-local
+
+ENTRYPOINT ["java", "-jar", "DynamoDBLocal.jar", "-inMemory", "--sharedDb"]

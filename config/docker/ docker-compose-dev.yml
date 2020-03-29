@@ -1,0 +1,65 @@
+# version: '2'
+
+# services:
+
+#     dynamodb:
+#         build:
+#             context: ../../
+#             dockerfile: config/docker/Dockerfile-dynamodb
+#         volumes:
+#             - mydata:/data
+#         networks:
+#             - app-network
+#         ports:
+#             - "8000:8000"
+#         environment:
+#             TZ: America/New_York
+        
+#     datacreator:
+#         build:
+#             context: ../../
+#             dockerfile: config/docker/Dockerfile-datacreator
+#         volumes:
+#             - mydata:/data
+#             - ../data/metro.json:/root/data/metro.json
+#             - ../data/azure.json:/root/data/azure.json
+#         networks:
+#             - app-network
+#         links:
+#             - dynamodb
+#         environment:
+#             TZ: America/New_York
+#             DEPLOY_ENV: dev
+#             AWS_ACCESS_KEY_ID: fake-key-id
+#             AWS_SECRET_ACCESS_KEY: fake-access-key
+#             AWS_DEFAULT_REGION: us-east-1
+
+#     nodeserver:
+#         build:
+#             context: ../../
+#             dockerfile: config/docker/Dockerfile-node
+#         volumes:
+#             - ../../config/bin/app.js:/usr/src/app/app.js
+#             - mydata:/data
+#         networks:
+#             - app-network
+#         links:
+#             - dynamodb
+#         ports:
+#             - "3000:3000"
+#         environment:
+#             TZ: America/New_York
+#             DEPLOY_ENV: dev
+#             AWS_ACCESS_KEY_ID: fake-key-id
+#             AWS_SECRET_ACCESS_KEY: fake-access-key
+#             AWS_DEFAULT_REGION: us-east-1
+
+# volumes:
+#     mydata:
+
+# networks:
+#     app-network:
+#         driver: bridge
+#         ipam:
+#             config:
+#                 - subnet: 172.28.0.0/24

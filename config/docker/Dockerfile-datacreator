@@ -1,0 +1,10 @@
+FROM python:3-alpine
+
+COPY config/bin/datacreator.sh /root/
+COPY config/data/ /root/data/
+
+RUN pip install --upgrade pip awscli && \
+    mkdir -p /root/data && \
+    chmod 755 /root/datacreator.sh
+
+CMD ["/root/datacreator.sh"]

@@ -1,0 +1,92 @@
+{
+    "Calendar-Metro": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "title": {
+                        "S": "Party"
+                    },
+                    "id": {
+                        "S": "6PtZV92c"
+                    },
+                    "info": {
+                        "M": {
+                            "description": {
+                                "S": "Party Time"
+                            },
+                            "endDate": {
+                                "S": "Fri Jan 10 2020 15:56:02 GMT-0500 (Eastern Standard Time)"
+                            },
+                            "eventLocation": {
+                                "S": "Party Time"
+                            },
+                            "dailyActivity": {
+                                "S": "false"
+                            },
+                            "startDate": {
+                                "S": "Fri Jan 10 2020 15:56:02 GMT-0500 (Eastern Standard Time)"
+                            },
+                            "availableSpots": {
+                                "S": "_"
+                            },
+                            "dailyEquation":{
+                                "M":{
+                                    "ogStartDate":{
+                                        "S":"Wed Jan 08 2020 22:26:29 GMT-0500 (Eastern Standard Time)"
+                                    },
+                                    "ogEndDate":{
+                                        "S": "Thu Dec 19 2019 22:26:29 GMT-0500 (Eastern Standard Time)"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "title": {
+                        "S": "Apple Sauce"
+                    },
+                    "id": {
+                        "S": "ESP4RgqY"
+                    },
+                    "info": {
+                        "M": {
+                            "description": {
+                                "S": "Apple Sauce"
+                            },
+                            "endDate": {
+                                "S": "Fri Jan 10 2020 15:29:00 GMT-0500 (Eastern Standard Time)"
+                            },
+                            "eventLocation": {
+                                "S": "Apple Sauce"
+                            },
+                            "dailyActivity": {
+                                "S": "false"
+                            },
+                            "startDate": {
+                                "S": "Fri Jan 10 2020 15:29:00 GMT-0500 (Eastern Standard Time)"
+                            },
+                            "availableSpots": {
+                                "S": "_"
+                            },
+                            "dailyEquation":{
+                                "M":{
+                                    "ogStartDate":{
+                                        "S":"Fri Jan 10 2020 15:29:00 GMT-0500 (Eastern Standard Time)"
+                                    },
+                                    "ogEndDate":{
+                                        "S": "Fri Jan 10 2020 15:29:00 GMT-0500 (Eastern Standard Time)"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
